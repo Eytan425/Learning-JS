@@ -1,7 +1,9 @@
-let name = "Eytan"
+let name = "Eytan Benittah"
 
-let greeting = "Hi, my name is "
+let greeting = "Welcome back "
 
-let myGreeting = greeting + name
+welcomeEl = document.getElementById("welcome-el")
+welcomeEl.innerText = greeting + name
 
-console.log(myGreeting)
+
+welcomeEl.innerText+= "👋"
